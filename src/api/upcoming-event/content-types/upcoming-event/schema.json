@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upcoming_events",
+  "info": {
+    "singularName": "upcoming-event",
+    "pluralName": "upcoming-events",
+    "displayName": "Upcoming_event"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "event": {
+      "type": "text"
+    },
+    "timeline": {
+      "type": "text"
+    },
+    "location": {
+      "type": "string"
+    },
+    "audience": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "topic": {
+      "type": "text"
+    }
+  }
+}
